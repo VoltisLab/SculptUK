@@ -232,7 +232,7 @@ const Services = () => {
                     </div>
                     
                     {service.description && (
-                      <p className="text-gray-300 mb-6 leading-relaxed text-sm">
+                      <p className="text-gray-600 mb-6 leading-relaxed text-sm">
                         {service.description}
                       </p>
                     )}
