@@ -21,6 +21,8 @@ function App() {
           <Route path="/training" element={<Training />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/appointment" element={<Appointment />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsOfService />} />
         </Routes>
       </BrowserRouter>
     </div>
