@@ -17,7 +17,7 @@ const TransformationSection = () => {
         {/* Before/After Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
           {/* Before/After Image */}
-          <div className="relative">
+          <div className="relative max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
             <img 
               src="https://images.unsplash.com/photo-1594824694996-f70da46b4b19?w=500&h=600&fit=crop&crop=face" 
               alt="Before and after transformation showing facial enhancement results" 
