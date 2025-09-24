@@ -20,7 +20,7 @@ const TransformationSection = () => {
           <div className="order-2 lg:order-1">
             <div className="max-w-md mx-auto lg:mx-0">
               <img 
-                src="https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/prqp1vtj_SnapInsta.to_551056968_17881765797389543_2910706867156139896_n.jpg" 
+                src="https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/ihloolf0_SnapInsta.to_551071066_17881781061389543_540253133835019875_n%20%281%29.jpg" 
                 alt="Before and after transformation showing facial enhancement results" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />
