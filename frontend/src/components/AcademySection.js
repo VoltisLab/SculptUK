@@ -19,7 +19,7 @@ const AcademySection = () => {
 
           {/* Right Content */}
           <div className="order-1 lg:order-2">
-            <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">
+            <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-white mb-6">
               The Formé Academy
             </h2>
             
