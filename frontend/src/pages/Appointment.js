@@ -4,6 +4,10 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Appointment = () => {
+  const location = useLocation();
+  const [urlParams, setUrlParams] = useState(new URLSearchParams(location.search));
+  const [preSelectedService, setPreSelectedService] = useState('');
+  
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -14,6 +18,23 @@ const Appointment = () => {
     preferredTime: '',
     message: ''
   });
+
+  // Extract service info from URL parameters
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const serviceName = params.get('service');
+    const serviceId = params.get('serviceId');
+    const category = params.get('category');
+    
+    if (serviceName) {
+      setPreSelectedService(serviceName);
+      setFormData(prev => ({
+        ...prev,
+        service: serviceName,
+        message: category ? `Interested in ${serviceName} from ${category} category.` : `Interested in ${serviceName}.`
+      }));
+    }
+  }, [location.search]);
 
   const handleChange = (e) => {
     setFormData({
