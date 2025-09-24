@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 
 const ServicesSection = () => {
   return (
-    <section className="relative bg-black min-h-screen py-16">
+    <section className="relative bg-white min-h-screen py-16">
       {/* Services Header - positioned absolutely */}
       <div className="absolute left-4 md:left-8 lg:left-16 top-8 z-20">
-        <h2 className="serif-font text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-light text-white">
+        <h2 className="serif-font text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-light text-black">
           Services
         </h2>
       </div>
       
       {/* Top right text overlay */}
       <div className="absolute top-8 right-4 md:right-8 lg:right-16 z-20 max-w-xs lg:max-w-sm">
-        <p className="text-gray-300 text-sm leading-relaxed">
+        <p className="text-gray-600 text-sm leading-relaxed">
           Secure your appointment with card protection for peace of mind. No-shows and cancellations are handled with ease.
         </p>
       </div>
