@@ -141,9 +141,10 @@ const ServicesSection = () => {
           </div>
         </div>
         
-        {/* Bottom border line */}
-        <div className="mt-16">
-          <div className="w-full h-px bg-gray-200"></div>
+          {/* Bottom border line */}
+          <div className="mt-16">
+            <div className="w-full h-px bg-gray-200"></div>
+          </div>
         </div>
       </div>
     </section>
