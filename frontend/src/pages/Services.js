@@ -223,10 +223,10 @@ const Services = () => {
                     style={{animationDelay: `${serviceIndex * 0.1}s`}}
                   >
                     <div className="flex justify-between items-start mb-4">
-                      <h3 className="text-white font-medium text-lg">
+                      <h3 className="text-black font-medium text-lg">
                         {service.name}
                       </h3>
-                      <span className="text-gray-300 text-sm ml-4">
+                      <span className="text-gray-600 text-sm ml-4">
                         {service.duration}
                       </span>
                     </div>
