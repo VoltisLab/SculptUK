@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-white text-center px-6">
-      <div className="w-full max-w-none">
+      <div className="w-full max-w-[1400px] mx-auto">
         <h1 className="serif-font text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-light leading-tight mb-8 fade-in text-black">
           <span className="block">Luxury Aesthetics.</span>
           <span className="block mt-2">Exceptional Results.</span>
