@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
 
   return (
     <section className="py-20 bg-black">
-      <div className="px-8 lg:px-16">
+      <div className="max-w-[1400px] mx-auto px-8 lg:px-16">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">
@@ -58,7 +58,7 @@ const TestimonialsSection = () => {
         </div>
 
         {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
