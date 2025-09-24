@@ -21,7 +21,7 @@ const AcademySection = () => {
       title: "Masterclasses",
       description: "Our exclusive signature programmes for those ready to specialise in specific areas.",
       icon: <Award className="w-6 h-6" />,
-      features: ["Lip Masterclass (Formé Contour Klase)", "The Art of Forme: Full Face", "Precision Techniques", "Advanced Harmonisation"]
+      features: ["Lip Masterclass (Sculpt Contour Class)", "The Art of Sculpt: Full Face", "Precision Techniques", "Advanced Harmonisation"]
     }
   ];
 
