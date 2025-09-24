@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="space-y-4 text-gray-300">
               <p>123 Aesthetic Lane<br />Beauty District<br />London, UK</p>
               <p>+44 20 1234 5678</p>
-              <p>info@sculptedbyuk.com</p>
+              <p>info@sculptbyuk.com</p>
             </div>
           </div>
         </div>
