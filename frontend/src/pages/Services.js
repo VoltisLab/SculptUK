@@ -209,10 +209,10 @@ const Services = () => {
           <section key={categoryIndex} className={`py-16 ${categoryIndex % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
             <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
               <div className="text-center mb-12">
-                <h2 className="serif-font text-4xl font-light mb-4 fade-in">
+                <h2 className="serif-font text-4xl font-light mb-4 fade-in text-black">
                   {category.category}
                 </h2>
-                <div className="w-16 h-px bg-white mx-auto"></div>
+                <div className="w-16 h-px bg-black mx-auto"></div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
