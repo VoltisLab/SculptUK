@@ -278,7 +278,10 @@ const Services = () => {
                       <button className="text-black hover:text-gray-600 transition-colors text-sm border-b border-transparent hover:border-gray-600">
                         View more
                       </button>
-                      <Link to="/appointment" className="btn-primary text-sm px-4 py-2">
+                      <Link 
+                        to={`/appointment?service=${encodeURIComponent(service.name)}&serviceId=${service.id}&category=${encodeURIComponent(category.category)}`}
+                        className="btn-primary text-sm px-4 py-2"
+                      >
                         Book Now→
                       </Link>
                     </div>
