@@ -49,7 +49,7 @@ const AcademySection = () => {
                 </p>
                 <div className="pl-8 mt-2 space-y-2">
                   <div>
-                    <h4 className="text-black text-sm font-medium">• Lip Masterclass (Sculpted Contour Technique)</h4>
+                    <h4 className="text-black text-sm font-medium">• Lip Masterclass (Sculpt Contour Technique)</h4>
                     <p className="text-gray-600 text-xs leading-relaxed pl-4">
                       – precision shaping and advanced lip techniques.
                     </p>
