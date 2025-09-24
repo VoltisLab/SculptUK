@@ -12,7 +12,7 @@ const About = () => {
         <section className="py-20 bg-white">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
             <h1 className="serif-font text-5xl md:text-6xl font-light mb-8 fade-in text-black">
-              About Sculpted by U.K
+              About Sculpt by U.K
             </h1>
             <div className="w-24 h-px bg-black mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 leading-relaxed fade-in">
