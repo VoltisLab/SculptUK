@@ -3,7 +3,7 @@ import React from 'react';
 const TransformationSection = () => {
   return (
     <section className="py-20 bg-black">
-      <div className="px-8 lg:px-16">
+      <div className="max-w-[1400px] mx-auto px-8 lg:px-16">
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">
@@ -15,7 +15,7 @@ const TransformationSection = () => {
         </div>
 
         {/* Before/After Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-[1200px] mx-auto">
           {/* Before/After Image */}
           <div className="relative">
             <img 
