@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const AcademySection = () => {
   return (
     <section className="py-20 bg-white">
-      <div className="px-8 lg:px-16 xl:px-24">
+      <div className="max-w-[1400px] mx-auto px-8 lg:px-16 xl:px-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
           {/* Left Image */}
           <div className="order-2 lg:order-1">
