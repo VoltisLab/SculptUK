@@ -4,22 +4,23 @@ import { Link } from 'react-router-dom';
 const ServicesSection = () => {
   return (
     <section className="relative bg-white min-h-screen py-16">
-      {/* Services Header - positioned absolutely */}
-      <div className="absolute left-4 md:left-8 lg:left-16 top-8 z-20">
-        <h2 className="serif-font text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-light text-black">
-          Services
-        </h2>
-      </div>
-      
-      {/* Top right text overlay */}
-      <div className="absolute top-8 right-4 md:right-8 lg:right-16 z-20 max-w-xs lg:max-w-sm">
-        <p className="text-gray-600 text-sm leading-relaxed">
-          Secure your appointment with card protection for peace of mind. No-shows and cancellations are handled with ease.
-        </p>
-      </div>
+      <div className="max-w-[1400px] mx-auto relative">
+        {/* Services Header - positioned absolutely */}
+        <div className="absolute left-4 md:left-8 lg:left-16 top-8 z-20">
+          <h2 className="serif-font text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-light text-black">
+            Services
+          </h2>
+        </div>
+        
+        {/* Top right text overlay */}
+        <div className="absolute top-8 right-4 md:right-8 lg:right-16 z-20 max-w-xs lg:max-w-sm">
+          <p className="text-gray-600 text-sm leading-relaxed">
+            Secure your appointment with card protection for peace of mind. No-shows and cancellations are handled with ease.
+          </p>
+        </div>
 
-      {/* Services Grid Layout */}
-      <div className="pt-32 lg:pt-40 px-4 md:px-8 lg:px-16">
+        {/* Services Grid Layout */}
+        <div className="pt-32 lg:pt-40 px-4 md:px-8 lg:px-16">
         {/* Top Row */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-12 mb-8">
           {/* Facial Balancing */}
