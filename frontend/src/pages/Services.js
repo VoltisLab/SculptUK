@@ -192,8 +192,8 @@ const Services = () => {
       
       <main className="pt-24">
         {/* Hero Section */}
-        <section className="py-20 bg-black">
-          <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center">
+        <section className="py-20 bg-white">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
             <h1 className="serif-font text-5xl md:text-6xl font-light mb-8 fade-in">
               Explore Our Services
             </h1>
