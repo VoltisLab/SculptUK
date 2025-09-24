@@ -44,7 +44,7 @@ const FAQSection = () => {
 
   return (
     <section className="py-20 bg-black">
-      <div className="px-8 lg:px-16 max-w-4xl mx-auto">
+      <div className="max-w-[1000px] mx-auto px-8 lg:px-16">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">
