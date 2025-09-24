@@ -2,8 +2,10 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import ServicesSection from '../components/ServicesSection';
-import TreatmentsSection from '../components/TreatmentsSection';
 import AcademySection from '../components/AcademySection';
+import TransformationSection from '../components/TransformationSection';
+import TestimonialsSection from '../components/TestimonialsSection';
+import FAQSection from '../components/FAQSection';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -12,8 +14,10 @@ const Home = () => {
       <Navbar />
       <Hero />
       <ServicesSection />
-      <TreatmentsSection />
       <AcademySection />
+      <TransformationSection />
+      <TestimonialsSection />
+      <FAQSection />
       <Footer />
     </div>
   );
