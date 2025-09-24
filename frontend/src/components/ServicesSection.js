@@ -119,12 +119,12 @@ const ServicesSection = () => {
 
           {/* Center Content - treatments title and View All button */}
           <div className="flex flex-col justify-center items-center text-center">
-            <h2 className="serif-font text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light text-white mb-8">
+            <h2 className="serif-font text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light text-black mb-8">
               treatments
             </h2>
             <Link 
               to="/services"
-              className="border border-white text-white px-8 py-3 hover:bg-white hover:text-black transition-colors duration-300"
+              className="border border-black text-black px-8 py-3 hover:bg-black hover:text-white transition-colors duration-300"
             >
               View All
             </Link>
