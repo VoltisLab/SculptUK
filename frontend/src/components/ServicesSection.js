@@ -6,25 +6,25 @@ const ServicesSection = () => {
     {
       title: 'Facial Balancing',
       description: 'Advanced techniques to harmonize and enhance your natural facial features with precision and artistry.',
-      image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&h=400&fit=crop&crop=face',
+      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/ihloolf0_SnapInsta.to_551071066_17881781061389543_540253133835019875_n%20%281%29.jpg',
       features: ['Dermal Fillers', 'Cheek Enhancement', 'Jawline Contouring', 'Lip Enhancement']
     },
     {
       title: 'Non-Surgical Enhancements',
       description: 'Revolutionary treatments that deliver exceptional results without invasive procedures or lengthy recovery times.',
-      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop&crop=center',
+      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/8mgyab49_SnapInsta.to_551071066_17881781061389543_540253133835019875_n.jpg',
       features: ['Thread Lifts', 'Skin Boosters', 'Anti-Wrinkle Injections', 'Profile Enhancement']
     },
     {
       title: 'Toxin Treatments',
       description: 'Expertly administered neurotoxin treatments for facial rejuvenation and natural-looking results.',
-      image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=400&fit=crop&crop=center',
+      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/ab6099j8_SnapInsta.to_551485792_17881805115389543_3605467977758722625_n.jpg',
       features: ['Forehead Lines', 'Crow\'s Feet', 'Frown Lines', 'Facial Slimming']
     },
     {
       title: 'Skin Rejuvenation',
       description: 'Restore your skin\'s natural radiance with advanced treatments and cutting-edge technology.',
-      image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&h=400&fit=crop&crop=center',
+      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/prqp1vtj_SnapInsta.to_551056968_17881765797389543_2910706867156139896_n.jpg',
       features: ['Chemical Peels', 'Microneedling', 'PRP Therapy', 'Laser Treatments']
     }
   ];
