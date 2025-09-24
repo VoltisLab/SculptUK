@@ -67,58 +67,58 @@ const Training = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-white">
       <Navbar />
       
       <main className="pt-24">
         {/* Hero Section */}
-        <section className="py-20 bg-black">
-          <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center">
-            <h1 className="serif-font text-5xl md:text-6xl font-light mb-8 fade-in">
+        <section className="py-20 bg-white">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
+            <h1 className="serif-font text-5xl md:text-6xl font-light mb-8 fade-in text-black">
               Professional Training
             </h1>
-            <div className="w-24 h-px bg-white mx-auto mb-8"></div>
-            <p className="text-xl text-gray-300 leading-relaxed fade-in">
+            <div className="w-24 h-px bg-black mx-auto mb-8"></div>
+            <p className="text-xl text-gray-600 leading-relaxed fade-in">
               Elevate your career with industry-leading aesthetic training programs designed by experts.
             </p>
           </div>
         </section>
 
         {/* Courses Section */}
-        <section className="py-20 bg-gray-900/20">
-          <div className="max-w-6xl mx-auto px-6 lg:px-12">
+        <section className="py-20 bg-gray-50">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {courses.map((course, index) => (
                 <div 
                   key={index}
-                  className="bg-gray-900/30 border border-gray-800 p-8 hover:border-gray-600 transition-all duration-300 fade-in"
+                  className="bg-white border border-gray-200 p-8 hover:border-gray-300 hover:shadow-lg transition-all duration-300 fade-in rounded-lg"
                   style={{animationDelay: `${index * 0.1}s`}}
                 >
                   <div className="flex justify-between items-start mb-4">
                     <div>
-                      <span className="text-gray-400 text-sm">{course.level}</span>
-                      <h3 className="serif-font text-2xl font-medium text-white mt-1">
+                      <span className="text-gray-500 text-sm">{course.level}</span>
+                      <h3 className="serif-font text-2xl font-medium text-black mt-1">
                         {course.title}
                       </h3>
                     </div>
                     <div className="text-right">
-                      <span className="text-gray-300 text-sm">{course.duration}</span>
-                      <div className="text-white font-semibold text-lg mt-1">
+                      <span className="text-gray-600 text-sm">{course.duration}</span>
+                      <div className="text-black font-semibold text-lg mt-1">
                         {course.price}
                       </div>
                     </div>
                   </div>
                   
-                  <p className="text-gray-300 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-6 leading-relaxed">
                     {course.description}
                   </p>
                   
                   <div className="mb-6">
-                    <h4 className="text-white font-medium mb-3">Course Includes:</h4>
+                    <h4 className="text-black font-medium mb-3">Course Includes:</h4>
                     <ul className="space-y-2">
                       {course.includes.map((item, itemIndex) => (
-                        <li key={itemIndex} className="flex items-start text-gray-300 text-sm">
-                          <svg className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li key={itemIndex} className="flex items-start text-gray-600 text-sm">
+                          <svg className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
                           {item}
@@ -137,46 +137,46 @@ const Training = () => {
         </section>
 
         {/* Why Choose Us Section */}
-        <section className="py-20 bg-black">
-          <div className="max-w-6xl mx-auto px-6 lg:px-12">
+        <section className="py-20 bg-white">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
             <div className="text-center mb-16">
-              <h2 className="serif-font text-4xl font-light mb-4">Why Choose Our Training</h2>
-              <div className="w-24 h-px bg-white mx-auto"></div>
+              <h2 className="serif-font text-4xl font-light mb-4 text-black">Why Choose Our Training</h2>
+              <div className="w-24 h-px bg-black mx-auto"></div>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center fade-in">
-                <div className="w-16 h-16 mx-auto mb-6 border border-white rounded-full flex items-center justify-center">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="text-center fade-in bg-gray-50 p-8 rounded-lg">
+                <div className="w-16 h-16 mx-auto mb-6 border border-black rounded-full flex items-center justify-center">
+                  <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                 </div>
-                <h3 className="serif-font text-xl font-medium mb-4">Expert Instructors</h3>
-                <p className="text-gray-300 leading-relaxed">
+                <h3 className="serif-font text-xl font-medium mb-4 text-black">Expert Instructors</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Learn from industry leaders with years of practical experience and proven results.
                 </p>
               </div>
               
-              <div className="text-center fade-in" style={{animationDelay: '0.2s'}}>
-                <div className="w-16 h-16 mx-auto mb-6 border border-white rounded-full flex items-center justify-center">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="text-center fade-in bg-gray-50 p-8 rounded-lg" style={{animationDelay: '0.2s'}}>
+                <div className="w-16 h-16 mx-auto mb-6 border border-black rounded-full flex items-center justify-center">
+                  <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                   </svg>
                 </div>
-                <h3 className="serif-font text-xl font-medium mb-4">Accredited Certification</h3>
-                <p className="text-gray-300 leading-relaxed">
+                <h3 className="serif-font text-xl font-medium mb-4 text-black">Accredited Certification</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Receive recognized qualifications that advance your professional standing in the industry.
                 </p>
               </div>
               
-              <div className="text-center fade-in" style={{animationDelay: '0.4s'}}>
-                <div className="w-16 h-16 mx-auto mb-6 border border-white rounded-full flex items-center justify-center">
-                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="text-center fade-in bg-gray-50 p-8 rounded-lg" style={{animationDelay: '0.4s'}}>
+                <div className="w-16 h-16 mx-auto mb-6 border border-black rounded-full flex items-center justify-center">
+                  <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <h3 className="serif-font text-xl font-medium mb-4">Ongoing Support</h3>
-                <p className="text-gray-300 leading-relaxed">
+                <h3 className="serif-font text-xl font-medium mb-4 text-black">Ongoing Support</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Benefit from continued mentorship and support long after your training is complete.
                 </p>
               </div>
@@ -185,12 +185,12 @@ const Training = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gray-900/20">
-          <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center">
-            <h2 className="serif-font text-4xl font-light mb-8">
+        <section className="py-20 bg-gray-50">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
+            <h2 className="serif-font text-4xl font-light mb-8 text-black">
               Start Your Aesthetic Career Today
             </h2>
-            <p className="text-gray-300 mb-8 text-lg">
+            <p className="text-gray-600 mb-8 text-lg">
               Join hundreds of successful practitioners who have transformed their careers with our training programs.
             </p>
             <button className="btn-primary serif-font text-lg">
