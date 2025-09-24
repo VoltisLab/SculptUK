@@ -29,34 +29,34 @@ const AcademySection = () => {
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-white font-medium mb-2">• Foundation Training</h3>
-                <p className="text-gray-400 text-sm leading-relaxed pl-4">
+                <h3 className="text-black font-medium mb-2">• Foundation Training</h3>
+                <p className="text-gray-600 text-sm leading-relaxed pl-4">
                   – Designed for complete beginners with no injecting experience. This course covers theory, facial anatomy, health & safety, injection techniques, and practical skills on live models.
                 </p>
               </div>
               
               <div>
-                <h3 className="text-white font-medium mb-2">• Advanced Training</h3>
-                <p className="text-gray-400 text-sm leading-relaxed pl-4">
+                <h3 className="text-black font-medium mb-2">• Advanced Training</h3>
+                <p className="text-gray-600 text-sm leading-relaxed pl-4">
                   – Focused on facial sculpting using advanced techniques and a variety of medical instruments.
                 </p>
               </div>
               
               <div>
-                <h3 className="text-white font-medium mb-2">• Masterclasses</h3>
-                <p className="text-gray-400 text-sm leading-relaxed pl-4">
+                <h3 className="text-black font-medium mb-2">• Masterclasses</h3>
+                <p className="text-gray-600 text-sm leading-relaxed pl-4">
                   – Our exclusive signature programmes for those ready to specialise:
                 </p>
                 <div className="pl-8 mt-2 space-y-2">
                   <div>
-                    <h4 className="text-white text-sm font-medium">• Lip Masterclass (Formé Contour Klase)</h4>
-                    <p className="text-gray-400 text-xs leading-relaxed pl-4">
+                    <h4 className="text-black text-sm font-medium">• Lip Masterclass (Formé Contour Klase)</h4>
+                    <p className="text-gray-600 text-xs leading-relaxed pl-4">
                       – precision shaping and advanced lip techniques.
                     </p>
                   </div>
                   <div>
-                    <h4 className="text-white text-sm font-medium">• The Art of Forme: Full Face Masterclass</h4>
-                    <p className="text-gray-400 text-xs leading-relaxed pl-4">
+                    <h4 className="text-black text-sm font-medium">• The Art of Forme: Full Face Masterclass</h4>
+                    <p className="text-gray-600 text-xs leading-relaxed pl-4">
                       – comprehensive harmonisation, balancing all features for the most elegant outcomes.
                     </p>
                   </div>
