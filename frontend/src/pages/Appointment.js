@@ -195,18 +195,32 @@ const Appointment = () => {
                 <div>
                   <label className="block text-black text-sm font-medium mb-2">
                     Service of Interest *
+                    {preSelectedService && (
+                      <span className="ml-2 text-green-600 text-xs font-normal">
+                        (Pre-selected from Services page)
+                      </span>
+                    )}
                   </label>
                   <select
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-white border border-gray-300 text-black focus:border-black focus:outline-none transition-colors rounded-lg"
+                    className={`w-full px-4 py-3 border text-black focus:border-black focus:outline-none transition-colors rounded-lg ${
+                      preSelectedService 
+                        ? 'bg-green-50 border-green-300' 
+                        : 'bg-white border-gray-300'
+                    }`}
                   >
                     <option value="">Select a service</option>
                     {services.map((service, index) => (
-                      <option key={index} value={service}>
+                      <option 
+                        key={index} 
+                        value={service}
+                        className={service === preSelectedService ? 'bg-green-100' : ''}
+                      >
                         {service}
+                        {service === preSelectedService ? ' ✓' : ''}
                       </option>
                     ))}
                   </select>
