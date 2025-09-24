@@ -43,14 +43,14 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-gray-50">
       <div className="max-w-[1000px] mx-auto px-8 lg:px-16">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">
+          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-black mb-6">
             Frequently Asked Questions
           </h2>
-          <p className="text-gray-300 text-lg leading-relaxed">
+          <p className="text-gray-600 text-lg leading-relaxed">
             You'll receive a full library of documents customized for California auto detailers:
           </p>
         </div>
@@ -60,16 +60,16 @@ const FAQSection = () => {
           {faqs.map((faq, index) => (
             <div 
               key={index}
-              className="border border-gray-800 rounded-lg overflow-hidden"
+              className="border border-gray-200 rounded-lg overflow-hidden bg-white"
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-900/30 transition-colors"
+                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
               >
-                <h3 className="text-white font-medium text-lg">{faq.question}</h3>
+                <h3 className="text-black font-medium text-lg">{faq.question}</h3>
                 <div className="flex-shrink-0 ml-4">
                   <svg 
-                    className={`w-5 h-5 text-gray-400 transition-transform duration-200 ${
+                    className={`w-5 h-5 text-gray-600 transition-transform duration-200 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                     fill="none" 
@@ -82,8 +82,8 @@ const FAQSection = () => {
               </button>
               
               {openIndex === index && (
-                <div className="px-6 pb-4 border-t border-gray-800">
-                  <p className="text-gray-300 leading-relaxed pt-4">
+                <div className="px-6 pb-4 border-t border-gray-200">
+                  <p className="text-gray-600 leading-relaxed pt-4">
                     {faq.answer}
                   </p>
                 </div>

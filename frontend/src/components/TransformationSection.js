@@ -2,14 +2,14 @@ import React from 'react';
 
 const TransformationSection = () => {
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-gray-50">
       <div className="px-8 lg:px-16 xl:px-24">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-white mb-6">
+          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-black mb-6">
             Transformation
           </h2>
-          <p className="text-gray-300 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
+          <p className="text-gray-600 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
             With patient consent, we showcase authentic before & after results that highlight the power of subtle, natural enhancement.
           </p>
         </div>
@@ -35,8 +35,8 @@ const TransformationSection = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-white font-medium text-lg mb-2">Before:</h3>
-                <p className="text-gray-300 leading-relaxed">
+                <h3 className="text-black font-medium text-lg mb-2">Before:</h3>
+                <p className="text-gray-600 leading-relaxed">
                   Lips appeared thin with little definition, creating an uneven balance with facial features.
                 </p>
               </div>
@@ -50,19 +50,19 @@ const TransformationSection = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-white font-medium text-lg mb-4">After:</h3>
-                <ul className="space-y-3 text-gray-300">
+                <h3 className="text-black font-medium text-lg mb-4">After:</h3>
+                <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start">
-                    <span className="text-white mr-2">•</span>
-                    <span><strong className="text-white">Lip Balancing</strong> — refined shape and symmetry for a softer, natural look.</span>
+                    <span className="text-black mr-2">•</span>
+                    <span><strong className="text-black">Lip Balancing</strong> — refined shape and symmetry for a softer, natural look.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-white mr-2">•</span>
-                    <span><strong className="text-white">Profile Harmonisation</strong> — balanced chin, jawline, and cheeks to enhance overall structure.</span>
+                    <span className="text-black mr-2">•</span>
+                    <span><strong className="text-black">Profile Harmonisation</strong> — balanced chin, jawline, and cheeks to enhance overall structure.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-white mr-2">•</span>
-                    <span><strong className="text-white">Filler Correction</strong> — dissolving previous work and restoring a natural appearance.</span>
+                    <span className="text-black mr-2">•</span>
+                    <span><strong className="text-black">Filler Correction</strong> — dissolving previous work and restoring a natural appearance.</span>
                   </li>
                 </ul>
               </div>
@@ -72,7 +72,7 @@ const TransformationSection = () => {
 
         {/* Bottom Text */}
         <div className="text-center mt-16">
-          <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="text-gray-600 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
             With patient consent, we showcase authentic before & after results that highlight the power of subtle, natural enhancement.
           </p>
         </div>

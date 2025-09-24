@@ -45,14 +45,14 @@ const TestimonialsSection = () => {
   );
 
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-white">
       <div className="px-8 lg:px-16 xl:px-24">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-white mb-6">
+          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-black mb-6">
             Testimonials
           </h2>
-          <p className="text-gray-300 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
+          <p className="text-gray-600 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
             With patient consent, we showcase authentic before & after results that highlight the power of subtle, natural enhancement.
           </p>
         </div>
@@ -62,11 +62,11 @@ const TestimonialsSection = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="bg-gray-900/30 border border-gray-800 p-8 rounded-lg hover:border-gray-600 transition-all duration-300"
+              className="bg-gray-50 border border-gray-200 p-8 rounded-lg hover:border-gray-300 hover:shadow-lg transition-all duration-300"
             >
               {/* Quote Icon */}
               <div className="mb-4">
-                <svg className="w-8 h-8 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8 text-gray-400" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-10zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
                 </svg>
               </div>
@@ -75,14 +75,14 @@ const TestimonialsSection = () => {
               <StarRating />
 
               {/* Testimonial Text */}
-              <p className="text-gray-300 leading-relaxed mb-6 italic">
+              <p className="text-gray-600 leading-relaxed mb-6 italic">
                 "{testimonial.text}"
               </p>
 
               {/* Author */}
               <div>
-                <p className="text-white font-medium">{testimonial.name}</p>
-                <p className="text-gray-400 text-sm">{testimonial.treatment}</p>
+                <p className="text-black font-medium">{testimonial.name}</p>
+                <p className="text-gray-500 text-sm">{testimonial.treatment}</p>
               </div>
             </div>
           ))}

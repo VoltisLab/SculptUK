@@ -25,14 +25,14 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-black/90 backdrop-blur-sm' : 'bg-transparent'
+      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
     }`}>
       <div className="px-6 lg:px-12 xl:px-16">
         <div className="flex items-center justify-between py-6">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="w-12 h-12 rounded-full border border-white flex items-center justify-center">
-              <span className="serif-font text-xl font-light">fc</span>
+            <div className="w-12 h-12 rounded-full border border-black flex items-center justify-center">
+              <span className="serif-font text-xl font-light text-black">fc</span>
             </div>
           </Link>
 
@@ -42,8 +42,8 @@ const Navbar = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-light tracking-wide hover:text-gray-300 transition-colors ${
-                  location.pathname === item.path ? 'text-white border-b border-white pb-1' : 'text-gray-400'
+                className={`text-sm font-light tracking-wide hover:text-gray-600 transition-colors ${
+                  location.pathname === item.path ? 'text-black border-b border-black pb-1' : 'text-gray-700'
                 }`}
               >
                 {item.label}
@@ -53,7 +53,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <div className="lg:hidden">
-            <button className="text-white">
+            <button className="text-black">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
