@@ -51,17 +51,51 @@ const Appointment = () => {
   };
 
   const services = [
+    // General categories
     'Consultation',
-    'Dermal Fillers',
-    'Anti-Wrinkle Injections',
-    'Cheek Enhancement',
-    'Lip Enhancement',
-    'Jawline Contouring',
-    'Thread Lift',
-    'Skin Boosters',
-    'Microneedling with PRP',
-    'Chemical Peels',
-    'Other'
+    'Other',
+    
+    // Facial Balancing
+    'Formé V Contour',
+    '2ml Facial Balancing',
+    '3ml Facial Balancing',
+    'Sculpte (Facial slimming & harmonisation)',
+    'Harmony',
+    'Profilè',
+    'The Elevè Package',
+    
+    // Threads & lifting
+    'Jawline definiton',
+    'Foxy eye procedure',
+    
+    // Skin Boosters
+    'REJURAN',
+    'Profhilio',
+    'Sunekos',
+    'Lip Booster',
+    
+    // Filler Treatments
+    'The Contour Kisse by Formè',
+    'Non surgical rhinoplasty',
+    'UltraVolume Lips by Formè',
+    'Russian Lips 0.5ml',
+    'Chin Augmentation 1ml',
+    'Cheek Augmentation 1ml',
+    
+    // Botox Treatments
+    '3 Area',
+    'Hyperhidrosis (excessive sweating)',
+    'Masseter Botox | Facial slimming',
+    '1 Area',
+    '2 Area',
+    
+    // Training Programs
+    'Signature Lip Masterclass: The Formè Contour Kisse™',
+    'Non-Surgical Rhinoplasty Masterclass',
+    'Facial Contouring Masterclass',
+    'Beginner\'s Dermal Filler & Foundation Botox Course',
+    'Advanced Filler & Botox Course',
+    'The Art of Formè: Profile & Feature Enhancement (Full Face Masterclass)'
   ];
 
   const timeSlots = [
