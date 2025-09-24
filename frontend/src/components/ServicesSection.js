@@ -6,25 +6,25 @@ const ServicesSection = () => {
     {
       title: 'Facial Balancing',
       description: 'Advanced techniques to harmonize and enhance your natural facial features with precision and artistry.',
-      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/ihloolf0_SnapInsta.to_551071066_17881781061389543_540253133835019875_n%20%281%29.jpg',
+      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/o4lgbuq7_548618488_18075513953481582_4540073863437101175_n.jpg',
       features: ['Dermal Fillers', 'Cheek Enhancement', 'Jawline Contouring', 'Lip Enhancement']
     },
     {
       title: 'Non-Surgical Enhancements',
       description: 'Revolutionary treatments that deliver exceptional results without invasive procedures or lengthy recovery times.',
-      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/8mgyab49_SnapInsta.to_551071066_17881781061389543_540253133835019875_n.jpg',
+      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/tttuu4a0_548698576_17881107792389543_84542946011862593_n.jpg',
       features: ['Thread Lifts', 'Skin Boosters', 'Anti-Wrinkle Injections', 'Profile Enhancement']
     },
     {
       title: 'Toxin Treatments',
       description: 'Expertly administered neurotoxin treatments for facial rejuvenation and natural-looking results.',
-      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/ab6099j8_SnapInsta.to_551485792_17881805115389543_3605467977758722625_n.jpg',
+      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/j2anapdm_546613438_17880927918389543_2874396220693872092_n.jpg',
       features: ['Forehead Lines', 'Crow\'s Feet', 'Frown Lines', 'Facial Slimming']
     },
     {
       title: 'Skin Rejuvenation',
       description: 'Restore your skin\'s natural radiance with advanced treatments and cutting-edge technology.',
-      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/prqp1vtj_SnapInsta.to_551056968_17881765797389543_2910706867156139896_n.jpg',
+      image: 'https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/k08h122u_SnapInsta.to_551660069_17881765080389543_3685001505789523181_n.jpg',
       features: ['Chemical Peels', 'Microneedling', 'PRP Therapy', 'Laser Treatments']
     }
   ];
