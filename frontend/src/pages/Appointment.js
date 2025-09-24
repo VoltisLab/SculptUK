@@ -126,6 +126,23 @@ const Appointment = () => {
         <section className="py-20 bg-gray-50">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
             <div className="max-w-4xl mx-auto">
+              {preSelectedService && (
+                <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+                  <div className="flex items-center">
+                    <div className="w-5 h-5 text-green-600 mr-3">
+                      ✓
+                    </div>
+                    <div>
+                      <p className="text-green-800 font-medium">
+                        Service Pre-Selected
+                      </p>
+                      <p className="text-green-700 text-sm">
+                        You've selected "{preSelectedService}" from our services page. You can change this selection below if needed.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
               <form onSubmit={handleSubmit} className="space-y-8 bg-white p-8 rounded-lg shadow-lg">
                 {/* Personal Information */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
