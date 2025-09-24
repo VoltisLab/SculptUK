@@ -43,8 +43,8 @@ body {
 /* Button styles */
 .btn-primary {
   background: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
   padding: 12px 24px;
   font-size: 14px;
   font-weight: 400;
@@ -56,8 +56,8 @@ body {
 }
 
 .btn-primary:hover {
-  background: #ffffff;
-  color: #000000;
+  background: #000000;
+  color: #ffffff;
   transform: translateY(-2px);
 }
 
