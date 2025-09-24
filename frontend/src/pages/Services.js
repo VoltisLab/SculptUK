@@ -187,7 +187,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-white">
       <Navbar />
       
       <main className="pt-24">
