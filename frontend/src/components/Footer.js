@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-12 h-12 rounded-full border border-white flex items-center justify-center mr-4">
                 <span className="serif-font text-xl font-light text-white">SU</span>
               </div>
-              <span className="serif-font text-xl font-light text-white">Sculpted by U.K</span>
+              <span className="serif-font text-xl font-light text-white">Sculpt by U.K</span>
             </div>
             <p className="text-gray-300 leading-relaxed max-w-md mb-6">
               Where beauty meets elegance. Specialising in full facial enhancements without the need for surgery.
