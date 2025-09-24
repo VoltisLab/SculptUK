@@ -219,7 +219,7 @@ const Services = () => {
                 {category.services.map((service, serviceIndex) => (
                   <div 
                     key={serviceIndex}
-                    className="bg-gray-900/30 border border-gray-800 p-6 hover:border-gray-600 transition-all duration-300 fade-in"
+                    className="bg-white border border-gray-200 p-6 hover:border-gray-300 hover:shadow-lg transition-all duration-300 fade-in"
                     style={{animationDelay: `${serviceIndex * 0.1}s`}}
                   >
                     <div className="flex justify-between items-start mb-4">
