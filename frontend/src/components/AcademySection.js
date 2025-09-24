@@ -73,7 +73,7 @@ const AcademySection = () => {
               </Link>
             </div>
 
-            <p className="text-gray-400 text-sm mt-6 leading-relaxed">
+            <p className="text-gray-600 text-sm mt-6 leading-relaxed">
               All courses are CPD-accredited and include theory, live model practice, and post-training support.
             </p>
           </div>
