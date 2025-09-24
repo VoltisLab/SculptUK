@@ -206,7 +206,7 @@ const Services = () => {
 
         {/* Services Categories */}
         {serviceCategories.map((category, categoryIndex) => (
-          <section key={categoryIndex} className={`py-16 ${categoryIndex % 2 === 0 ? 'bg-black' : 'bg-gray-900/20'}`}>
+          <section key={categoryIndex} className={`py-16 ${categoryIndex % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
             <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
               <div className="text-center mb-12">
                 <h2 className="serif-font text-4xl font-light mb-4 fade-in">
