@@ -55,7 +55,7 @@ const AcademySection = () => {
                     </p>
                   </div>
                   <div>
-                    <h4 className="text-black text-sm font-medium">• The Art of Sculpting: Full Face Masterclass</h4>
+                    <h4 className="text-black text-sm font-medium">• The Art of Sculpt: Full Face Masterclass</h4>
                     <p className="text-gray-600 text-xs leading-relaxed pl-4">
                       – comprehensive harmonisation, balancing all features for the most elegant outcomes.
                     </p>
