@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-black text-center px-6">
-      <div className="max-w-4xl">
-        <h1 className="serif-font text-6xl md:text-7xl lg:text-8xl font-light leading-tight mb-8 fade-in">
+      <div className="max-w-5xl mx-auto">
+        <h1 className="serif-font text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light leading-tight mb-8 fade-in">
           <span className="block">Luxury Aesthetics.</span>
           <span className="block mt-2">Exceptional Results.</span>
         </h1>
         
-        <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed fade-in" style={{animationDelay: '0.3s'}}>
+        <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed fade-in" style={{animationDelay: '0.3s'}}>
           Welcome to The Forme Clinique, where beauty meets elegance. We specialise in full facial enhancements without the need for surgery. Our team of specialists will guide and advise you on every step of your journey.
         </p>
         
