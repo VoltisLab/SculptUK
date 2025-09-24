@@ -46,19 +46,19 @@ const TestimonialsSection = () => {
 
   return (
     <section className="py-20 bg-black">
-      <div className="max-w-[1400px] mx-auto px-8 lg:px-16">
+      <div className="px-8 lg:px-16 xl:px-24">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">
+          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-white mb-6">
             Testimonials
           </h2>
-          <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="text-gray-300 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
             With patient consent, we showcase authentic before & after results that highlight the power of subtle, natural enhancement.
           </p>
         </div>
 
         {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 xl:gap-10">
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
