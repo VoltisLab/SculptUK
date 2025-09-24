@@ -249,7 +249,7 @@ const Appointment = () => {
                   </svg>
                 </div>
                 <h3 className="text-black font-medium mb-2">Email</h3>
-                <p className="text-gray-600">info@theformeclinique.com</p>
+                <p className="text-gray-600">info@sculptedbyuk.com</p>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg">
