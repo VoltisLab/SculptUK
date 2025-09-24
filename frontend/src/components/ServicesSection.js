@@ -102,7 +102,7 @@ const ServicesSection = () => {
               </h3>
               <Link 
                 to="/services" 
-                className="inline-flex items-center text-white hover:text-gray-300 transition-colors group"
+                className="inline-flex items-center text-white hover:text-gray-200 transition-colors group"
               >
                 <span className="mr-2 font-light tracking-wide">Book Now</span>
                 <svg 
