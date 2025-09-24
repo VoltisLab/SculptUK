@@ -10,7 +10,7 @@ const AcademySection = () => {
           <div className="order-2 lg:order-1">
             <div className="aspect-[4/5] overflow-hidden rounded-lg max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
               <img 
-                src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?w=500&h=600&fit=crop&crop=center" 
+                src="https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/s462sjsw_SnapInsta.to_552081996_17881765785389543_5482520383614813895_n.jpg" 
                 alt="Training at The Formé Academy" 
                 className="w-full h-full object-cover"
               />
