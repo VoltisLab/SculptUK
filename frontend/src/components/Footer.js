@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-black border-t border-gray-800 py-16">
+    <footer className="bg-gray-900 border-t border-gray-700 py-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 rounded-full border border-white flex items-center justify-center mr-4">
-                <span className="serif-font text-xl font-light">fc</span>
+                <span className="serif-font text-xl font-light text-white">fc</span>
               </div>
-              <span className="serif-font text-xl font-light">The Forme Clinique</span>
+              <span className="serif-font text-xl font-light text-white">The Forme Clinique</span>
             </div>
-            <p className="text-gray-400 leading-relaxed max-w-md mb-6">
+            <p className="text-gray-300 leading-relaxed max-w-md mb-6">
               Where beauty meets elegance. Specialising in full facial enhancements without the need for surgery.
             </p>
             <div className="flex space-x-4">
