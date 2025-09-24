@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
       isScrolled ? 'bg-black/90 backdrop-blur-sm' : 'bg-transparent'
     }`}>
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+      <div className="px-6 lg:px-12 xl:px-16">
         <div className="flex items-center justify-between py-6">
           {/* Logo */}
           <Link to="/" className="flex items-center">
