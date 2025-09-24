@@ -12,7 +12,7 @@ const About = () => {
         <section className="py-20 bg-white">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
             <h1 className="serif-font text-5xl md:text-6xl font-light mb-8 fade-in text-black">
-              About The Forme Clinique
+              About Sculpted by U.K
             </h1>
             <div className="w-24 h-px bg-black mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 leading-relaxed fade-in">
@@ -28,7 +28,7 @@ const About = () => {
               <div className="slide-in-left">
                 <h2 className="serif-font text-4xl font-light mb-6 text-black">Our Story</h2>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Founded with a vision to redefine aesthetic medicine, The Forme Clinique represents the pinnacle of non-surgical enhancement. Our journey began with a simple belief: true beauty enhancement should be an art form that celebrates individuality while achieving harmonious results.
+                  Founded with a vision to redefine aesthetic medicine, Sculpted by U.K represents the pinnacle of non-surgical enhancement. Our journey began with a simple belief: true beauty enhancement should be an art form that celebrates individuality while achieving harmonious results.
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   We specialize in facial balancing techniques that work with your natural features, creating subtle yet transformative results. Our approach combines cutting-edge technology with artistic expertise to deliver outcomes that exceed expectations.

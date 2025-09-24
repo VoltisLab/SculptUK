@@ -11,7 +11,7 @@ const AcademySection = () => {
             <div className="aspect-[4/5] overflow-hidden rounded-lg max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
               <img 
                 src="https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/s462sjsw_SnapInsta.to_552081996_17881765785389543_5482520383614813895_n.jpg" 
-                alt="Training at The Formé Academy" 
+                alt="Training at Sculpted by U.K Academy" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -20,7 +20,7 @@ const AcademySection = () => {
           {/* Right Content */}
           <div className="order-1 lg:order-2">
             <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-black mb-6">
-              The Formé Academy
+              Sculpted Academy
             </h2>
             
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
@@ -49,13 +49,13 @@ const AcademySection = () => {
                 </p>
                 <div className="pl-8 mt-2 space-y-2">
                   <div>
-                    <h4 className="text-black text-sm font-medium">• Lip Masterclass (Formé Contour Klase)</h4>
+                    <h4 className="text-black text-sm font-medium">• Lip Masterclass (Sculpted Contour Technique)</h4>
                     <p className="text-gray-600 text-xs leading-relaxed pl-4">
                       – precision shaping and advanced lip techniques.
                     </p>
                   </div>
                   <div>
-                    <h4 className="text-black text-sm font-medium">• The Art of Forme: Full Face Masterclass</h4>
+                    <h4 className="text-black text-sm font-medium">• The Art of Sculpting: Full Face Masterclass</h4>
                     <p className="text-gray-600 text-xs leading-relaxed pl-4">
                       – comprehensive harmonisation, balancing all features for the most elegant outcomes.
                     </p>

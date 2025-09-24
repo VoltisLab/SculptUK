@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 rounded-full border border-white flex items-center justify-center mr-4">
-                <span className="serif-font text-xl font-light text-white">fc</span>
+                <span className="serif-font text-xl font-light text-white">SU</span>
               </div>
-              <span className="serif-font text-xl font-light text-white">The Forme Clinique</span>
+              <span className="serif-font text-xl font-light text-white">Sculpted by U.K</span>
             </div>
             <p className="text-gray-300 leading-relaxed max-w-md mb-6">
               Where beauty meets elegance. Specialising in full facial enhancements without the need for surgery.
@@ -40,32 +40,32 @@ const Footer = () => {
           <div>
             <h3 className="serif-font text-lg font-medium mb-6">Quick Links</h3>
             <ul className="space-y-4">
-              <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Services</Link></li>
-              <li><Link to="/training" className="text-gray-400 hover:text-white transition-colors">Training</Link></li>
-              <li><Link to="/appointment" className="text-gray-400 hover:text-white transition-colors">Book Appointment</Link></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link></li>
+              <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Services</Link></li>
+              <li><Link to="/training" className="text-gray-300 hover:text-white transition-colors">Training</Link></li>
+              <li><Link to="/appointment" className="text-gray-300 hover:text-white transition-colors">Book Appointment</Link></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
             <h3 className="serif-font text-lg font-medium mb-6">Contact</h3>
-            <div className="space-y-4 text-gray-400">
+            <div className="space-y-4 text-gray-300">
               <p>123 Aesthetic Lane<br />Beauty District<br />London, UK</p>
               <p>+44 20 1234 5678</p>
-              <p>info@theformeclinique.com</p>
+              <p>info@sculptedbyuk.com</p>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
-            © 2024 The Forme Clinique. All rights reserved.
+        <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-gray-300 text-sm">
+            © 2024 Sculpted by U.K. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</Link>
-            <Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</Link>
+            <Link to="/privacy" className="text-gray-300 hover:text-white text-sm transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="text-gray-300 hover:text-white text-sm transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

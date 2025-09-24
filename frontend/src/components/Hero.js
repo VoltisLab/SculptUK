@@ -11,7 +11,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto mb-12 leading-relaxed fade-in" style={{animationDelay: '0.3s'}}>
-          Welcome to The Forme Clinique, where beauty meets elegance. We specialise in full facial enhancements without the need for surgery. Our team of specialists will guide and advise you on every step of your journey.
+          Welcome to Sculpted by U.K, where beauty meets elegance. We specialise in full facial enhancements without the need for surgery. Our team of specialists will guide and advise you on every step of your journey.
         </p>
         
         <Link 
