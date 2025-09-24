@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 const AcademySection = () => {
   return (
     <section className="py-20 bg-black">
-      <div className="px-8 lg:px-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-[1400px] mx-auto px-8 lg:px-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-[1200px] mx-auto">
           {/* Left Image */}
           <div className="order-2 lg:order-1">
-            <div className="aspect-[4/5] overflow-hidden rounded-lg">
+            <div className="aspect-[4/5] overflow-hidden rounded-lg max-w-[500px] mx-auto">
               <img 
                 src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?w=500&h=600&fit=crop&crop=center" 
                 alt="Training at The Formé Academy" 
@@ -18,7 +18,7 @@ const AcademySection = () => {
           </div>
 
           {/* Right Content */}
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-2 max-w-[600px] mx-auto lg:mx-0">
             <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">
               The Formé Academy
             </h2>
