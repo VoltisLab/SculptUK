@@ -3,19 +3,19 @@ import React from 'react';
 const TransformationSection = () => {
   return (
     <section className="py-20 bg-black">
-      <div className="max-w-[1400px] mx-auto px-8 lg:px-16">
+      <div className="px-8 lg:px-16 xl:px-24">
         {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl font-light text-white mb-6">
+        <div className="text-center mb-16">
+          <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-white mb-6">
             Transformation
           </h2>
-          <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="text-gray-300 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
             With patient consent, we showcase authentic before & after results that highlight the power of subtle, natural enhancement.
           </p>
         </div>
 
         {/* Before/After Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-[1200px] mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
           {/* Before/After Image */}
           <div className="relative">
             <img 
