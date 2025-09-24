@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="serif-font text-lg font-medium mb-6">Contact</h3>
+            <h3 className="serif-font text-lg font-medium mb-6 text-white">Contact</h3>
             <div className="space-y-4 text-gray-300">
               <p>123 Aesthetic Lane<br />Beauty District<br />London, UK</p>
               <p>+44 20 1234 5678</p>
