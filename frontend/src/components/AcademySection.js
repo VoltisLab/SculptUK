@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const AcademySection = () => {
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-white">
       <div className="px-8 lg:px-16 xl:px-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
           {/* Left Image */}
@@ -19,11 +19,11 @@ const AcademySection = () => {
 
           {/* Right Content */}
           <div className="order-1 lg:order-2">
-            <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-white mb-6">
+            <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-black mb-6">
               The Formé Academy
             </h2>
             
-            <p className="text-gray-300 text-lg mb-8 leading-relaxed">
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">
               Elevating the next generation of practitioners with accredited, hands-on training.
             </p>
 
