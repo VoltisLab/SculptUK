@@ -11,7 +11,7 @@ const AcademySection = () => {
             <div className="aspect-[4/5] overflow-hidden rounded-lg max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
               <img 
                 src="https://customer-assets.emergentagent.com/job_clinic-replica-2/artifacts/s462sjsw_SnapInsta.to_552081996_17881765785389543_5482520383614813895_n.jpg" 
-                alt="Training at Sculpted by U.K Academy" 
+                alt="Training at Sculpt by U.K Academy" 
                 className="w-full h-full object-cover"
               />
             </div>
