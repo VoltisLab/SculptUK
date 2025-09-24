@@ -71,7 +71,7 @@ const AcademySection = () => {
           <div className="relative">
             <img
               src="https://images.pexels.com/photos/3059398/pexels-photo-3059398.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="The Forme Academy training session"
+              alt="Sculpt by U.K training session"
               className="w-full h-96 object-cover rounded-2xl shadow-2xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
