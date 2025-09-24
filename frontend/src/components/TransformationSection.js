@@ -3,7 +3,7 @@ import React from 'react';
 const TransformationSection = () => {
   return (
     <section className="py-20 bg-gray-50">
-      <div className="px-8 lg:px-16 xl:px-24">
+      <div className="max-w-[1400px] mx-auto px-8 lg:px-16 xl:px-24">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="serif-font text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-black mb-6">
