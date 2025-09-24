@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import Services from '../components/ServicesSection';
+import ServicesSection from '../components/ServicesSection';
+import TreatmentsSection from '../components/TreatmentsSection';
+import AcademySection from '../components/AcademySection';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -9,7 +11,9 @@ const Home = () => {
     <div className="min-h-screen bg-black">
       <Navbar />
       <Hero />
-      <Services />
+      <ServicesSection />
+      <TreatmentsSection />
+      <AcademySection />
       <Footer />
     </div>
   );
