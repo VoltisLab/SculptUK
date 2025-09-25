@@ -118,3 +118,4 @@ android-sdk/ -e
 *.env
 *.env.*
 nextjs-app/node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-arm64-gnu.node
+nextjs-frontend/node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-arm64-gnu.node
