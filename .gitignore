@@ -126,3 +126,7 @@ frontend/nextjs-frontend/node_modules/@next/swc-linux-arm64-gnu/next-swc.linux-a
 # Environment files
 *.env
 *.env.*
+-e 
+# Environment files
+*.env
+*.env.*
