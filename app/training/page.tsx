@@ -208,9 +208,12 @@ const Training: React.FC = () => {
                         <p className="text-gray-600 mb-8 text-lg">
                             Join hundreds of successful practitioners who have transformed their careers with our training programs.
                         </p>
-                        <button className="btn-primary serif-font text-lg">
+                        <Link 
+                            href="/contact"
+                            className="btn-primary serif-font text-lg"
+                        >
                             Download Course Brochure
-                        </button>
+                        </Link>
                     </div>
                 </section>
             </main>
