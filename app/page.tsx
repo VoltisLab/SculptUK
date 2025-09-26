@@ -1,12 +1,12 @@
-import Navbar from '../src/components/Navbar';
-import Hero from '../src/components/Hero';
-import ServicesSection from '../src/components/ServicesSection';
-import GallerySection from '../src/components/GallerySection';
-import AcademySection from '../src/components/AcademySection';
-import TransformationSection from '../src/components/TransformationSection';
-import TestimonialsSection from '../src/components/TestimonialsSection';
-import FAQSection from '../src/components/FAQSection';
-import Footer from '../src/components/Footer';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import ServicesSection from '../components/ServicesSection';
+import GallerySection from '../components/GallerySection';
+import AcademySection from '../components/AcademySection';
+import TransformationSection from '../components/TransformationSection';
+import TestimonialsSection from '../components/TestimonialsSection';
+import FAQSection from '../components/FAQSection';
+import Footer from '../components/Footer';
 
 export default function Home() {
     return (

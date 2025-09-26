@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import Navbar from '../../src/components/Navbar';
-import Footer from '../../src/components/Footer';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 interface GalleryImage {
     id: number;
@@ -153,8 +153,8 @@ export default function Gallery() {
                                     key={category.id}
                                     onClick={() => setSelectedCategory(category.id)}
                                     className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${selectedCategory === category.id
-                                            ? 'bg-black text-white shadow-lg'
-                                            : 'bg-white text-gray-700 border border-gray-300 hover:border-gray-400 hover:shadow-md'
+                                        ? 'bg-black text-white shadow-lg'
+                                        : 'bg-white text-gray-700 border border-gray-300 hover:border-gray-400 hover:shadow-md'
                                         }`}
                                 >
                                     {category.label} ({category.count})

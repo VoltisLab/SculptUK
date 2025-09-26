@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import Navbar from '../../src/components/Navbar';
-import Footer from '../../src/components/Footer';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 interface FormData {
     firstName: string;
@@ -237,8 +237,8 @@ const AppointmentForm: React.FC = () => {
                                         onChange={handleChange}
                                         required
                                         className={`w-full px-4 py-3 border text-black focus:border-black focus:outline-none transition-colors rounded-lg ${preSelectedService
-                                                ? 'bg-green-50 border-green-300'
-                                                : 'bg-white border-gray-300'
+                                            ? 'bg-green-50 border-green-300'
+                                            : 'bg-white border-gray-300'
                                             }`}
                                     >
                                         <option value="">Select a service</option>
