@@ -11,6 +11,7 @@ interface NavItem {
 
 const Navbar: React.FC = () => {
     const [isScrolled, setIsScrolled] = useState<boolean>(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
     const pathname = usePathname();
 
     useEffect(() => {
