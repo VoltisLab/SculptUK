@@ -145,12 +145,12 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
                                 </svg>
                             </Link>
                             <div className="ml-3 relative">
-                                <div className="flex items-center">
+                                <Link href="/admin/settings" className="flex items-center hover:bg-gray-50 rounded-lg p-2 transition-colors">
                                     <span className="text-sm font-medium text-gray-700 mr-2">SculptUK Admin</span>
                                     <div className="h-8 w-8 rounded-full bg-gray-200 flex items-center justify-center">
                                         <span className="text-sm font-medium text-gray-700">SA</span>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
