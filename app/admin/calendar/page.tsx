@@ -93,6 +93,18 @@ const CalendarAdmin: React.FC = () => {
         ));
     };
 
+    const cancelAppointment = (id: number) => {
+        setAppointments(appointments.map(apt => 
+            apt.id === id ? { ...apt, status: 'cancelled' } : apt
+        ));
+    };
+
+    const deleteAppointment = (id: number) => {
+        if (confirm('Are you sure you want to delete this appointment? This action cannot be undone.')) {
+            setAppointments(appointments.filter(apt => apt.id !== id));
+        }
+    };
+
     const getStatusColor = (status: Appointment['status']) => {
         switch (status) {
             case 'pending': return 'bg-yellow-100 text-yellow-800';
