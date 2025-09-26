@@ -107,6 +107,34 @@ const CalendarAdmin: React.FC = () => {
         }
     };
 
+    const handleReschedule = (id: number) => {
+        const appointment = appointments.find(apt => apt.id === id);
+        if (appointment) {
+            setRescheduleData({ date: appointment.date, time: appointment.time });
+            setShowRescheduleModal(id);
+        }
+    };
+
+    const saveReschedule = () => {
+        if (showRescheduleModal && rescheduleData.date && rescheduleData.time) {
+            setAppointments(appointments.map(apt => 
+                apt.id === showRescheduleModal 
+                    ? { ...apt, date: rescheduleData.date, time: rescheduleData.time }
+                    : apt
+            ));
+            setShowRescheduleModal(null);
+            setRescheduleData({ date: '', time: '' });
+        }
+    };
+
+    const handleDateClick = (date: Date) => {
+        setSelectedDate(date);
+        // Switch to list view when a date is clicked to show appointments for that date
+        if (viewMode === 'calendar') {
+            setViewMode('list');
+        }
+    };
+
     const getStatusColor = (status: Appointment['status']) => {
         switch (status) {
             case 'pending': return 'bg-yellow-100 text-yellow-800';
