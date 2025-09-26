@@ -139,9 +139,12 @@ const Training: React.FC = () => {
                                         </ul>
                                     </div>
 
-                                    <button className="btn-primary w-full">
+                                    <Link 
+                                        href="/contact"
+                                        className="btn-primary w-full block text-center"
+                                    >
                                         Enquire Now
-                                    </button>
+                                    </Link>
                                 </div>
                             ))}
                         </div>
