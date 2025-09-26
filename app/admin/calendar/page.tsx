@@ -411,6 +411,68 @@ const CalendarAdmin: React.FC = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Reschedule Modal */}
+            {showRescheduleModal && (
+                <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+                    <div className="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+                        <div className="mt-3">
+                            <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-blue-100">
+                                <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <h3 className="text-lg leading-6 font-medium text-gray-900 mt-4 text-center">Reschedule Appointment</h3>
+                            <div className="mt-4 px-2 py-3">
+                                <div className="space-y-4">
+                                    <div>
+                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                            New Date
+                                        </label>
+                                        <input
+                                            type="date"
+                                            value={rescheduleData.date}
+                                            onChange={(e) => setRescheduleData(prev => ({ ...prev, date: e.target.value }))}
+                                            className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                            New Time
+                                        </label>
+                                        <input
+                                            type="time"
+                                            value={rescheduleData.time}
+                                            onChange={(e) => setRescheduleData(prev => ({ ...prev, time: e.target.value }))}
+                                            className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="items-center px-4 py-3">
+                                <div className="flex space-x-3">
+                                    <button
+                                        onClick={saveReschedule}
+                                        disabled={!rescheduleData.date || !rescheduleData.time}
+                                        className="px-4 py-2 bg-blue-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                                    >
+                                        Save Changes
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            setShowRescheduleModal(null);
+                                            setRescheduleData({ date: '', time: '' });
+                                        }}
+                                        className="px-4 py-2 bg-gray-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300"
+                                    >
+                                        Cancel
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
         </AdminLayout>
     );
 };
