@@ -58,6 +58,8 @@ const CalendarAdmin: React.FC = () => {
     ]);
 
     const [viewMode, setViewMode] = useState<'calendar' | 'list'>('calendar');
+    const [showRescheduleModal, setShowRescheduleModal] = useState<number | null>(null);
+    const [rescheduleData, setRescheduleData] = useState({ date: '', time: '' });
 
     const getDaysInMonth = (date: Date) => {
         const year = date.getFullYear();
