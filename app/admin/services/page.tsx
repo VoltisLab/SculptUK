@@ -94,7 +94,7 @@ const ServicesAdmin: React.FC = () => {
                 {services.map((service) => (
                     <div key={service.id} className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
                         {/* Service Image */}
-                        <div className="aspect-video relative overflow-hidden">
+                        <div className="aspect-square relative overflow-hidden">
                             <img
                                 src={service.image}
                                 alt={service.title}
