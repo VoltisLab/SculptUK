@@ -95,7 +95,7 @@ const ServicesSection: React.FC = () => {
 
                                 {/* CTA Button */}
                                 <Link
-                                    href="/services"
+                                    href="/appointment"
                                     className="inline-flex items-center text-black hover:text-gray-600 transition-colors group font-medium"
                                 >
                                     <span className="mr-2">Book Now</span>
