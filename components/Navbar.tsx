@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
                     </Link>
 
                     {/* Navigation Links */}
-                    <div className="hidden lg:flex items-center space-x-8">
+                    <div className="hidden md:flex items-center space-x-8">
                         {navItems.map((item) => (
                             <Link
                                 key={item.path}
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className="lg:hidden">
+                    <div className="md:hidden">
                         <button 
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             className="text-black p-2"
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
 
             {/* Mobile Menu */}
             {isMobileMenuOpen && (
-                <div className="lg:hidden bg-white border-t border-gray-200 shadow-lg">
+                <div className="md:hidden bg-white border-t border-gray-200 shadow-lg">
                     <div className="px-6 py-4 space-y-4">
                         {navItems.map((item) => (
                             <Link
