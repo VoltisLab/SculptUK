@@ -280,6 +280,21 @@ const CalendarAdmin: React.FC = () => {
                                                 <option value="completed">Completed</option>
                                                 <option value="cancelled">Cancelled</option>
                                             </select>
+                                            <div className="flex space-x-1">
+                                                <button
+                                                    onClick={() => cancelAppointment(appointment.id)}
+                                                    className="text-xs px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200 transition-colors"
+                                                    disabled={appointment.status === 'cancelled'}
+                                                >
+                                                    Cancel
+                                                </button>
+                                                <button
+                                                    onClick={() => deleteAppointment(appointment.id)}
+                                                    className="text-xs px-2 py-1 bg-gray-100 text-gray-700 rounded hover:bg-gray-200 transition-colors"
+                                                >
+                                                    Delete
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
