@@ -49,7 +49,7 @@ const GallerySection: React.FC = () => {
                     {galleryImages.map((item, index) => (
                         <div
                             key={index}
-                            className="group relative overflow-hidden rounded-lg bg-white shadow-lg hover:shadow-xl transition-all duration-500 fade-in"
+                            className="group bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 fade-in"
                             style={{ animationDelay: `${index * 0.1}s` }}
                         >
                             {/* Image */}
@@ -59,14 +59,12 @@ const GallerySection: React.FC = () => {
                                     alt={item.title}
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
-
-                                {/* Overlay */}
-                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                    <div className="text-center text-white p-6">
-                                        <h3 className="serif-font text-xl font-medium mb-2">{item.title}</h3>
-                                        <p className="text-sm text-gray-300">{item.description}</p>
-                                    </div>
-                                </div>
+                            </div>
+                            
+                            {/* Labels below image */}
+                            <div className="p-4 text-center">
+                                <h3 className="serif-font text-lg font-medium text-black mb-1">{item.title}</h3>
+                                <p className="text-sm text-gray-600">{item.description}</p>
                             </div>
                         </div>
                     ))}
