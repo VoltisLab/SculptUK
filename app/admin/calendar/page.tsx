@@ -242,10 +242,14 @@ const CalendarAdmin: React.FC = () => {
                                     return (
                                         <div
                                             key={index}
-                                            className={`p-2 h-24 border border-gray-100 cursor-pointer hover:bg-gray-50 ${
+                                            className={`p-2 h-24 border border-gray-100 cursor-pointer hover:bg-gray-50 transition-colors ${
                                                 isToday ? 'bg-blue-50 border-blue-200' : ''
+                                            } ${
+                                                selectedDate.toDateString() === date.toDateString() 
+                                                    ? 'bg-indigo-100 border-indigo-300' 
+                                                    : ''
                                             }`}
-                                            onClick={() => setSelectedDate(date)}
+                                            onClick={() => handleDateClick(date)}
                                         >
                                             <div className={`text-sm mb-1 ${isToday ? 'font-semibold text-blue-600' : 'text-gray-700'}`}>
                                                 {date.getDate()}
