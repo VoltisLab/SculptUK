@@ -224,10 +224,24 @@ const CalendarAdmin: React.FC = () => {
                                                 {dayAppointments.slice(0, 2).map(apt => (
                                                     <div
                                                         key={apt.id}
-                                                        className="text-xs p-1 bg-gray-100 rounded truncate"
+                                                        className="text-xs p-1 bg-gray-100 rounded truncate group relative"
                                                         title={`${apt.time} - ${apt.clientName}`}
                                                     >
-                                                        {apt.time} {apt.clientName.split(' ')[0]}
+                                                        <div className="flex items-center justify-between">
+                                                            <span>{apt.time} {apt.clientName.split(' ')[0]}</span>
+                                                            <div className="opacity-0 group-hover:opacity-100 flex space-x-1">
+                                                                <button
+                                                                    onClick={(e) => {
+                                                                        e.stopPropagation();
+                                                                        cancelAppointment(apt.id);
+                                                                    }}
+                                                                    className="text-red-500 hover:text-red-700"
+                                                                    title="Cancel appointment"
+                                                                >
+                                                                    ×
+                                                                </button>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 ))}
                                                 {dayAppointments.length > 2 && (
